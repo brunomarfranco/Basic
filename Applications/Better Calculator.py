@@ -11,7 +11,4 @@ elif op == "/":
 elif op == "*":
     print(num1 * num2)
 else:
-    raise AttributeError("Operador inválido")
-
-
-    #print("Enter a valid operator")
+    print("Enter a valid operator")
