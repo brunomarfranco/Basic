@@ -31,12 +31,12 @@ print("STRINGS")
 
 phrase = "\"Giraffe Academy\" "
 print(phrase + "is cool")
-print(phrase.lower())
-print(phrase.upper())
-print(phrase.upper().isupper())
-print(len(phrase))
-print(phrase[0])
-print(phrase.index("ffe"))
+print(phrase.lower())  #lowercase
+print(phrase.upper())  #uppercase
+print(phrase.upper().isupper())   #boolean
+print(len(phrase))   #lenght
+print(phrase[0])   #select specific element
+print(phrase.index("ffe"))    #index of the element
 print(phrase.replace("Giraffe", "Elephant"))
 print(phrase.replace("f", "t"))
 
@@ -52,17 +52,17 @@ print(10 % 3)
 my_num = -5
 print(my_num)
 print(str(my_num) + " is my favorite number")
-print(abs(my_num))
-print(pow(4, 6))
-print(max(4, 6))
-print(min(4, 6))
-print(round(3.4))
+print(abs(my_num))  #absolute num
+print(pow(4, 6))   #power (potência)
+print(max(4, 6))   #show max num
+print(min(4, 6))   #show min num
+print(round(3.4))  #round num
 
 from math import *
 
-print(floor(3.7))
-print(ceil(3.3))
-print(sqrt(36))
+print(floor(3.7))    #round num below
+print(ceil(3.3))     #round num above
+print(sqrt(36))      #square root
 
 print("\n")
 
