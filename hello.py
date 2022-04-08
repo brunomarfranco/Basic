@@ -47,7 +47,7 @@ print("NUMBERS")
 print(2)
 print(-2.0987)
 print(3 * (6 / 2))
-print(10 % 3)
+print(10 % 3)       # remainder (sobra): 10 / 3 = 3;    3 * 3 = 9;    10 - 9 = 1.
 
 my_num = -5
 print(my_num)
@@ -165,6 +165,7 @@ print(max_num(3, 5, 4))
 
 print("\n")
 
+
 print("DICTIONARIES")
 
 monthConversions = {
@@ -186,3 +187,52 @@ print(monthConversions["Nov"])
 print(monthConversions.get("Dec"))
 print(monthConversions.get(2))
 print(monthConversions.get("Luv", "Not a valid key"))
+
+print("\n")
+
+
+print("WHILE LOOP")
+
+i = 1
+while i <= 10:
+    print(i)
+    i += 1  # i = i + 1
+
+print("Done with loop")
+
+print("\n")
+
+
+print("FOR LOOP")
+
+for letter in "Giraffe Academy":
+    print(letter)
+
+friends = ["Gil", "Ian", "Caio"]
+for friend in friends:
+    print(friend)
+
+for number in range(10):
+    print(number)
+
+for index in range(len(friends)):   # varíavel index passa a ter o valor de 0, depois 1, depois 2
+    print(friends[index])           # friends[0], friends [1], friends [2]
+
+for index in range(10):
+    if index == 0:
+        print("First iteration")
+    elif 0 < index < 5:
+        print(f'{index} is your floor number')
+    elif 5 <= index < 9:
+        print(f'{index} is your ceil number')
+    elif index == 9:
+        print("Last iteration")
+
+print("EXPONENT FUNCTION")
+def raise_to_power(base_num, pow_num):
+    result = 1
+    for index in range(pow_num):
+        result = result * base_num
+    return result
+
+print(raise_to_power(2, 3))
