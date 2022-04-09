@@ -212,7 +212,7 @@ friends = ["Gil", "Ian", "Caio"]
 for friend in friends:
     print(friend)
 
-for number in range(10):
+for number in range(10):  # 0-9. Pode usar "," pra delimitar entre um nº e outro
     print(number)
 
 for index in range(len(friends)):   # varíavel index passa a ter o valor de 0, depois 1, depois 2

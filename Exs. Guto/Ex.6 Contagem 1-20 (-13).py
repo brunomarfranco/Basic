@@ -1,3 +1,3 @@
-for num in range(21):
-    if 0 < num != 13:
+for num in range(1, 21):
+    if num != 13:
         print(num)

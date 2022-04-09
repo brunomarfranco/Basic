@@ -1,3 +1,2 @@
-for num in range(21):
-    if num > 0:
+for num in range(1, 21):
         print(num)

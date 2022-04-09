@@ -1,17 +1,10 @@
 full_name = input("Digite seu nome completo: ")
-first = full_name.split()[0]
-last = full_name.split()[1]
+all_names = full_name.split()
+last = ""
 
-print(f'Seu nome é {first} e seu sobrenome é {last}.')
+for surname in range(len(all_names)):
+    last = all_names[surname]
 
-
-
-
-full_name = input("Digite seu nome completo: ")
-
-for name in full_name:
-    print(name)
+print("Seu nome é last")
 
 
-
-# lógica: se existe > 2 (nomes), printar
