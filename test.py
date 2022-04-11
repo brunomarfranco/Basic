@@ -1,10 +1,7 @@
+#Nomes Reverso (old)
+
 full_name = input("Digite seu nome completo: ")
-all_names = full_name.split()
-last = ""
+first = full_name.split()[0]
+last = full_name.split()[-1]
 
-for surname in range(len(all_names)):
-    last = all_names[surname]
-
-print("Seu nome é last")
-
-
+print(f'Seu nome é {first} e seu sobrenome é {last}.')
