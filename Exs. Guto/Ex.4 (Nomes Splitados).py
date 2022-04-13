@@ -1,14 +1,15 @@
 full_name = input("Digite seu nome completo: ")
-first = full_name.split()[0]
-last = ""
+all_names = full_name.split()
+all_surnames = all_names[1:]
 
-for name in range(len(full_name.split())):
-    if name == 1:
-        last = last + full_name.split()[name]
-    if name > 1:
-        last = last + " " + full_name.split()[name]
+if len(all_names) > 0:
+    first = all_names[0]
+    last = " ".join(all_surnames)
 
-if len(full_name.split()) > 1:
-    print(f'Seu nome é {first} e seu sobrenome é {last}')
+    if len(all_names) > 1:
+        print(f'Seu nome é {first} e seu sobrenome é {last}')
+    else:
+        print(f'Seu nome é {first}')
+
 else:
-    print(f'Seu nome é {first}')
+    print("Digite um nome válido!")

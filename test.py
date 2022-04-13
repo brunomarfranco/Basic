@@ -1,7 +1,6 @@
-#Nomes Reverso (old)
+friends = ["Gil", "Ian", "Guilherme", "Gil", "Bernardo", "Sérgio"]
+nums = 1, 2, 3, 4, 5
 
-full_name = input("Digite seu nome completo: ")
-first = full_name.split()[0]
-last = full_name.split()[-1]
+friends.append(1)
 
-print(f'Seu nome é {first} e seu sobrenome é {last}.')
+print(friends)
