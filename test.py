@@ -1,6 +1,12 @@
-friends = ["Gil", "Ian", "Guilherme", "Gil", "Bernardo", "Sérgio"]
-nums = 1, 2, 3, 4, 5
+word_phrase = input("Digite uma palavra ou frase: ").lower()
+final_string = word_phrase.replace(" ", "",).replace("'", "").replace(",", "").replace("!", "").replace("?", "").replace(":", "").replace("\"", "").replace("-", "").replace(".", "").replace("~", "")
+final_string_rev = final_string[::-1]
 
-friends.append(1)
+if final_string == final_string_rev:
+    print("É um palíndromo")
+else:
+    print("Não é um palíndromo")
 
-print(friends)
+
+def final_string(1):
+

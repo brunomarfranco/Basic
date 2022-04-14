@@ -1,8 +1,13 @@
 print("LISTS")
 
 friends = ["Gil", "Ian", "Guilherme", "Gil", "Bernardo", "Sérgio"]
-print(friends[1:])
 print(friends[1:3])
+print(friends[1:])
+print(friends[:3])
+print(friends[1:-1:2])  # começo:fim:steps
+print(friends[:-1:2])
+print(friends[::-1])  # reverse
+
 friends[-2] = "Caio"
 print(friends[0] + " and " + friends[-2] + " are my closest friends")
 
