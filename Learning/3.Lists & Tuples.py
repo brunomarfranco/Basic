@@ -7,7 +7,6 @@ print(friends[:3])
 print(friends[1:-1:2])  # começo:fim:steps
 print(friends[:-1:2])
 print(friends[::-1])  # reverse
-
 friends[-2] = "Caio"
 print(friends[0] + " and " + friends[-2] + " are my closest friends")
 
@@ -28,12 +27,6 @@ print(friends)
 friends2 = friends.copy()
 print(friends2)
 
-my_name = "Bruno Martins Franco"
-all_names = my_name.split()  # splita a string em itens a partir de um separador pré-definido (separator, maxsplit)
-print(all_names)
-my_friends = " ".join(friends)  # junta os itens de uma lista em uma string, adicionando um separador str entre eles
-print(my_friends)
-
 lucky_numbers = [13, 5, 7, 11, 49]
 lucky_numbers.sort()
 print(lucky_numbers)
@@ -44,8 +37,20 @@ friends.extend(lucky_numbers)
 print(friends)
 friends.clear()
 print(friends)
-print("\n")
 
+my_name = "Bruno Martins Franco"
+all_names = my_name.split()  # splita a string em itens a partir de um separador pré-definido (separator, maxsplit)
+print(all_names)
+my_friends = " ".join(friends)  # junta os itens de uma lista em uma string, adicionando um separador str entre eles
+print(my_friends)
+
+nums_list = input("Digite uma lista de números: ")           # nums_list = "1 2 3 4"
+nums_list1 = input("Digite uma lista de números: ").split()  # nums_list = ["1", "2", "3", "4"]
+nums_list2 = [input("Digite uma lista de números: ")]        # nums_list = ["1 2 3 4"]
+
+# List Comprehension
+new_list = [int(num) for num in user_list if num < 5]  # retorna "num" manipulado com int para cada "num" que houver em "user_list" e que for maior do que 5
+print("\n")
 
 print("TUPLES")
 
