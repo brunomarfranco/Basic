@@ -5,4 +5,3 @@ for index in range(len(user_list)):
     user_list[index] = int(user_list[index])
 
 print(user_list)
-

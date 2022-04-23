@@ -1,5 +1,7 @@
 print("FUNCTIONS")
 
+name = input("Enter name: ")
+age = input ("Enter age: ")
 
 def say_hi(name, age):
     print("Hello " + name + ", you are " + str(age) + ".")
@@ -7,6 +9,7 @@ def say_hi(name, age):
 
 say_hi("Bruno", 28)
 say_hi("Deborah", 35)
+say_hi(name, age)
 
 
 def cube(num):

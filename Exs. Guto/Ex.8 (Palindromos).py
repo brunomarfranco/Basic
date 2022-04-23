@@ -6,5 +6,3 @@ if final_string == final_string_rev:
     print("É um palíndromo")
 else:
     print("Não é um palíndromo")
-
-
