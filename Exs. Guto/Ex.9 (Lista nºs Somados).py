@@ -1,10 +1,10 @@
-string_input = input("Digite uma lista de números separados por um espaço: ")
-user_list = string_input.split()
+user_input = input("Digite uma lista de números separados por um espaço: ")
+user_list = user_input.split()
+
 nums_list = []
 
 for num in user_list:
     nums_list.append(int(num))
-
 
 if len(nums_list) >= 2:
     check_sum = False
@@ -20,3 +20,6 @@ if len(nums_list) >= 2:
 
 else:
     print("Digite pelo menos 2 números!")
+
+
+# Pode usar list comprehension: nums_list = [int(num) for num in user_list]

@@ -4,7 +4,7 @@ IMC = weight / height**2
 
 if IMC < 18.5:
     print("Você está abaixo do peso ideal.")
-elif 18.5 < IMC < 25:
+elif 18.5 < IMC < 25:  # pode fazer também: elif IMC > 18.5 and IMC < 25
     print("Parabéns! Você está no peso ideal!")
 elif IMC < 30:
     print("Você está com sobrepeso.")

@@ -38,6 +38,10 @@ print(friends)
 friends.clear()
 print(friends)
 
+if lucky_numbers.__contains__(7):
+    print("True, it contains 7")
+
+# Split & Join
 my_name = "Bruno Martins Franco"
 all_names = my_name.split()  # splita a string em itens a partir de um separador pré-definido (separator, maxsplit)
 print(all_names)
@@ -49,8 +53,10 @@ nums_list1 = input("Digite uma lista de números: ").split()  # nums_list = ["1"
 nums_list2 = [input("Digite uma lista de números: ")]        # nums_list = ["1 2 3 4"]
 
 # List Comprehension
-new_list = [int(num) for num in user_list if num < 5]  # retorna "num" manipulado com int para cada "num" que houver em "user_list" e que for maior do que 5
+user_list = input("Digite uma lista de números: ").split()
+new_list = [int(num) for num in user_list]  # retorna "num" manipulado com int para cada "num" que houver em "user_list"
 print("\n")
+
 
 print("TUPLES")
 
@@ -59,3 +65,14 @@ print(coordinates[-1])
 
 coordinates = [(4, 5), (6, 7), (50, 55)]
 print(coordinates[2])
+print("\n")
+
+
+print("SETS")
+
+nums_set = {5, 4, 3, 1, 0, 2}
+print(nums_set)
+
+groceries = set()
+groceries.add("apple")
+print(groceries)

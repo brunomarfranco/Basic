@@ -1,7 +1,8 @@
 print("FUNCTIONS")
 
 name = input("Enter name: ")
-age = input ("Enter age: ")
+age = input("Enter age: ")
+
 
 def say_hi(name, age):
     print("Hello " + name + ", you are " + str(age) + ".")
