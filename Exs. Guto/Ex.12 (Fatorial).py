@@ -1,4 +1,4 @@
-num_input = int(input("Digite um número para calcular seu fatorial: "))
+num_input = int(input("Digite um número para calcular o seu fatorial: "))
 nums_list = [num_input]
 
 factorial = 1
