@@ -35,6 +35,8 @@ for index in range(10):
     elif index == 9:
         print("Last iteration")
 
+# For Loop é usado quando vc vai reutilizar o elemento (e.g index) dentro da iteração;
+# While Loop é usado quando vc quer apenas realizar uma iteração enquanto determinada condição existir.
 
 print("EXPONENT FUNCTION")
 

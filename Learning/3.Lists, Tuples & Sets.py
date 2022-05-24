@@ -12,8 +12,8 @@ print(friends[0] + " and " + friends[-2] + " are my closest friends")
 
 friends.append("Josimar")
 print(friends)
-friends.insert(1, "Karen")
-print(friends)
+friends.insert(-1, "Karen")  # -x na verdade se traduz p/ len(list) - x; insert coloca o novo elemento no index pedido
+print(friends)               # e empurra p/ direita o elemento que estava nessa posição anteriormente
 friends.remove("Josimar")
 print(friends)
 friends.pop()
@@ -40,6 +40,7 @@ print(friends)
 
 if lucky_numbers.__contains__(7):
     print("True, it contains 7")
+
 
 # Split & Join
 my_name = "Bruno Martins Franco"
