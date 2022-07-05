@@ -21,13 +21,13 @@ while not end_game:
     elif P1_turn == "papel":
         if P2_turn == "pedra":
             print(f'Parabéns {player_1}, você venceu!')
-            else:
+        else:
             print(f'Parabéns {player_2}, você venceu!')
 
     elif P1_turn == "tesoura":
         if P2_turn == "papel":
             print(f'Parabéns {player_1}, você venceu!')
-            else:
+        else:
             print(f'Parabéns {player_2}, você venceu!')
 
     else:
