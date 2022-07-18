@@ -33,7 +33,7 @@ while not end_game:
     if new_game == "não":
         print("Até a próxima!")
         end_game = True
-    else:
+    elif new_game == "sim":
         print("Vamos lá!")
         drawn_num = random.randint(1, 9)
         guess_count = 0

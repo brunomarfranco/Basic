@@ -15,7 +15,7 @@ while len(list_2) < random_total_2:
 print(f'Lista 1: {list_1} \nLista 2: {list_2}')
 
 
-overlap_list = []
+overlap_list = []  # overlap_list = [num for num in set(list_1) if num in list_2]
 
 for num in list_1:
     if num in list_2 and num not in overlap_list:

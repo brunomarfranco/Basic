@@ -35,7 +35,7 @@ print(phrase + "is cool")
 print(phrase.lower())  # lowercase
 print(phrase.upper())  # uppercase
 print(phrase.upper().isupper())   # boolean
-print(len(phrase))   # lenght
+print(len(phrase))   # length
 print(phrase[0])   # select specific element
 print(phrase.index("ffe"))    # index of the element
 print(phrase.replace("Giraffe", "Elephant"))
