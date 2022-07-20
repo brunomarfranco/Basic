@@ -1,0 +1,115 @@
+String = plain text
+Numbers = no "" necessary
+Boolean Values = True or False
+
+Variable = can store one element
+Lists = can store multiple elements (arrays)
+Tuples = same as Lists, but are imutable
+
+Methods = functions for strings, lists, numbers, etc.
+Functions = collection of manually written codes that perform specific tasks (def)
+
+Comparison operators: == igual
+                      != diferente
+                      > maior
+                      < menor
+                      >= maior ou igual
+                      <= menor ou igual
+
+Arithmetic operators: ** elevado
+                      % modulus (remainder)
+                      // floor division (divisão em nºs inteiros: arredonda p/ baixo até o nº inteiro)
+
+
+
+Sistemas de Numeração:
+
+Decimal (base 10, 10 algarismos p/ representar quantidade): 0-9
+Hexadecimal (base 16, alfanumérico): 0-9, a-f
+Binário (base 2): 0, 1 (cada algarismo é um bit = "binary digit")
+
+Binário:
+0 = 0 _ (1 bit)
+1 = 1
+10 = 2 __ (2 bits)
+11 = 3
+100 = 4 ___ (3 bits)
+101 = 5
+110 = 6
+111 = 7
+1000 = 8 ____ (4 bits)
+1001 = 9
+1010 = 10
+1011 = 11
+1100 = 12
+1101 = 13
+1110 = 14
+1111 = 15
+10000 = 16 _____ (5 bits)
+10001 = 17
+10010 = 18
+10011 = 19
+10100 = 20
+10101 = 21
+10110 = 22
+10111 = 23
+11000 = 24
+11001 = 25
+11010 = 26
+11011 = 27
+11100 = 28
+11101 = 29
+11110 = 30
+11111 = 31
+100000 = 32 ______ (6 bits)
+
+Hexadecimal:
+0 = 0
+1 = 1
+2 = 2
+3 = 3
+4 = 4
+5 = 5
+6 = 6
+7 = 7
+8 = 8
+9 = 9
+a = 10
+b = 11
+c = 12
+d = 13
+e = 14
+f = 15
+10 = 16
+11 = 17
+12 = 18
+13 = 19
+14 = 20
+15 = 21
+16 = 22
+17 = 23
+18 = 24
+19 = 25
+1a = 26
+1b = 27
+1c = 28
+1d = 29
+1e = 30
+1f = 31
+20 = 32
+
+ASCII: 7 bits,    2^6 2^5 2^4 2^3 2^2 2^1 2^0
+                   _   _   _   _   _   _   _
+                   64  32  16  8   4   2   1
+
+B 66   = 1 0 0 0 0 1 0
+r 114  = 1 1 1 0 0 1 0
+u 117  = 1 1 1 0 1 0 1
+n 110  = 1 1 0 1 1 1 0
+o 111  = 1 1 0 1 1 1 1
+
+
+Hex:  16^2 16^1 16^0
+      256  16   1
+
+1BC = (1 x 256) + (11 x 16) + (12 x 1) = 444
